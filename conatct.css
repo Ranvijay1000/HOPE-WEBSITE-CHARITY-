@@ -1,0 +1,141 @@
+.contact {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+.side1 {
+    width: 50%;
+    float: left;
+}
+.side2 {
+    float: right;
+    width: 50%;
+}
+.input {
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px ridge;
+    display: block;
+}
+.name {
+    margin-top: 50px;
+}
+.name, .email{
+    height: 40px;
+    width: 200px;
+    padding-left: 15px;
+    display: inline;
+}
+.subject {
+    height: 40px;
+    width: 455px;
+    padding-left: 15px;
+}
+.message {
+    height: 150px;
+    width: 456.8px;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.yellow-text {
+    color: #FFD012;
+    display: inline;
+    font-family: Verdana;
+}
+.emailico {
+    float: left;
+    display: inline;
+}
+.nonyellow {
+    display: inline;
+    font-family: Verdana;
+}
+.h1para {
+    margin-top: 50px;
+}
+p {
+    color: rgb(148, 148, 148);
+    font-family: sans-serif, poppins;
+}
+.send {
+    width: 150px;
+    height: 50px;
+    border: 0px solid black;
+    border-radius: 6px;
+    margin-left: 15px;
+    font-weight: 900;
+    background-color: #FFD012;
+    color: black;
+}
+.send:hover {
+    color: white;
+    background-color: black;
+    transition-duration: 0.5s;
+}
+#emailico {
+    display: inline-block;
+}
+#phonepara {
+    margin-top: -32px;
+    margin-left: 18px;
+}
+#addresspara {
+    margin-top: -32px;
+    margin-left: 18px;
+}
+.emailid {
+    margin-left: 15px;
+    margin-top: -10px;
+}
+.phonenumber {
+    margin-left: 15px;
+    margin-top: -10px;
+}
+.addressnumber {
+    margin-left: 15px;
+    margin-top: -10px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #000;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar span {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar .menu {
+    display: flex;
+    align-items: center;
+}
+.navbar .menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+.navbar .menu a:hover {
+    color: #ffcc00;
+    transition-duration: 0.5s;
+}
+.navbar .menu .donate:hover {
+    background-color: white;
+    color: black;
+}
+.navbar .menu .donate {
+    background-color: #ffcc00;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
